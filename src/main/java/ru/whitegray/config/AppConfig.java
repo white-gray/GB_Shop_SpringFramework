@@ -52,11 +52,11 @@ public class AppConfig implements WebMvcConfigurer {
   @Bean
   public List<Product> products() {
     List<Product> products = new ArrayList<>();
-    products.add(new Product(1L, "RTX 3080", new BigDecimal(100000)));
-    products.add(new Product(2L, "RTX 3090", new BigDecimal(200000)));
-    products.add(new Product(3L, "RTX 3070", new BigDecimal(80000)));
-    products.add(new Product(4L, "RTX 3060ti", new BigDecimal(70000)));
-    products.add(new Product(5L, "RTX 3080", new BigDecimal(50000)));
+    products.add(new Product(1L, "bot", new BigDecimal(100000)));
+    products.add(new Product(2L, "caloshi", new BigDecimal(200000)));
+    products.add(new Product(3L, "trusy", new BigDecimal(80000)));
+    products.add(new Product(4L, "bagti", new BigDecimal(70000)));
+    products.add(new Product(5L, "gloves", new BigDecimal(50000)));
     return products;
   }
 
